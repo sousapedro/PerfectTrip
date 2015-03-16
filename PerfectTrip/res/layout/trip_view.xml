@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"		   
+		    android:orientation="vertical"
+		    android:layout_marginTop="5dp"
+		    android:layout_marginBottom= "5dp"
+		    android:background="#333333">
+ <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"		   
+		    android:orientation="vertical"
+		    android:layout_marginTop="3dp"
+		    android:layout_marginBottom="3dp"
+		    android:layout_marginLeft ="3dp"
+		    android:layout_marginRight="3dp"
+		    android:background="#66cccc">
+		   
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:stretchColumns="2" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" >
+       
+	     <LinearLayout
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginBottom="2dp"
+	         android:layout_marginLeft="10sp"
+	         android:layout_marginTop="3dp"
+	         android:orientation="vertical" >
+
+	         <TextView
+	             android:id="@+id/trip_title"
+	             android:layout_width="200dp"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:text="Name of The Trip"
+	             android:textSize="20sp"
+	             android:textStyle="bold" />
+
+	         <LinearLayout
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:orientation="horizontal" >
+
+	             <TextView
+	                 android:id="@+id/trip_count"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="5 "
+	                 android:textColor="#660909"/>
+
+	             <TextView
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="2dp"
+	                 android:text="Days"
+	                 android:textColor="#660909"/>
+
+	         </LinearLayout>
+	     </LinearLayout>
+	     	     <LinearLayout
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_marginBottom="2dp"
+		         android:layout_marginLeft="10sp"
+		         android:layout_marginTop="3dp"
+		         android:orientation="vertical" >
+	         	     <LinearLayout
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:orientation="horizontal" >
+	             <TextView
+	                 android:id="@+id/favorite_count"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="8dp"
+	                 android:text="0 "
+	                 android:textColor="#660909"
+	                 android:textStyle="italic" />	             <ImageView
+	                 
+	                 android:id="@+id/trip_img2"
+	                 android:layout_width="20dp"
+	                 android:layout_height="20dp"
+	                 android:layout_marginBottom="5dp"
+	                 android:layout_marginRight="5dp"
+	                 android:src="@drawable/star" />
+	             	         </LinearLayout>
+	     </LinearLayout>
+	</TableRow>
+</TableLayout>   
+</LinearLayout>
+</LinearLayout>
